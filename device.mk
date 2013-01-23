@@ -31,6 +31,3 @@ PRODUCT_COPY_FILES += \
 # Radio
 $(call inherit-product, build/target/product/telephony.mk)
 $(call inherit-product, vendor/cm/config/cdma.mk)
-
-PRODUCT_PACKAGES += \
-	libsecril-client
